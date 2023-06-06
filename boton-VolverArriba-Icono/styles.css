@@ -1,0 +1,28 @@
+/* Estilo boton icono VolverArriba */
+.contenido {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#btn-volver-arriba {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#btn-volver-arriba:hover {
+    opacity: 0.8;
+}
